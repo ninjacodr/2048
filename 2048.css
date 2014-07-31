@@ -1,0 +1,85 @@
+body
+{
+	background-color: #efefef;
+}
+
+#wrapper
+{
+position: relative;
+top: 80px;
+clear: both;
+}
+
+#grid li
+{
+border: 1px solid black;
+text-align: center;
+font-size: 38pt;
+font-weight: bold;
+position: relative;
+bottom: 45px;
+right: 40px;
+background-color: #c6ba8c;
+overflow: hidden;
+width: 25%;
+display: inline-block;
+max-height: 140px;
+max-width: 20%;
+height: 140px;
+
+}
+
+#grid
+{
+   
+	position: relative;
+	border-collapse: collapse;
+	list-style-type:none;
+	padding: 0px;
+	left: 17%;
+	width: 80%;
+}
+#title
+{
+	font-size: 50pt;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	left: 40%;
+	
+}
+
+#score
+{
+ width: 50px;
+ height: 50px;
+ position: relative;
+ bottom: 65px;
+ left: 55%;
+ font-size: 16pt;
+
+}
+button
+{
+position: relative;
+left: 35%;
+top: 10px;
+}
+h3
+{
+display: inline; 
+position: relative;
+ left: 49%;
+ bottom: 15px
+}
+
+#gameOver
+{
+position: absolute;
+left: 100%;
+top : 52%;
+width: 100%;
+font-size : 90pt;
+color : #291904;
+clear: both;
+}
